@@ -1,3 +1,2 @@
-<?php
-Header("Location: /downloads.php");
+<?php Header("Location: /downloads.php"); ?>
 
