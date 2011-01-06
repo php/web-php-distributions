@@ -31,7 +31,7 @@ if (!ini_get('safe_mode')) {
 echo "Testing float behaviour. If this script hangs or terminates with an error ".
      "message due to maximum execution time limit being reached, you should ".
      "update your PHP installation asap!\n";
-echo "For more information refer to <http://bugs.php.net/53632>.";
+echo "For more information refer to <http://bugs.php.net/53632>.\n";
 $d = (double)"2.2250738585072011e-308";
 echo "Your system seems to be safe.\n";
 ?>
